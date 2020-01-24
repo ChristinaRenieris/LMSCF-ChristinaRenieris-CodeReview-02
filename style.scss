@@ -1,0 +1,148 @@
+$black:rgb(26, 26, 26);
+$red:rgb(95, 26, 28);
+$grey:rgb(221, 221, 221);
+.container,
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
+
+.Header {
+    background-color: $red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.Logo1 {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+}
+
+.NavTop {
+    margin-top: 0;
+    background-color: $black;
+    list-style-type: none;
+    padding: 1em;
+}
+
+li {
+    margin-left: 0.5em;
+    display: inline;
+}
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: $red;
+    display: inline;
+}
+
+.Date {
+    padding-right: 2em;
+    text-align: right;
+    font-size: 0.9em;
+    color: $black;
+}
+
+.Main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.TopNews {
+    padding-left: 1em;
+    margin: 0;
+    background-color: $grey;
+    color: $black;
+    font-size: 1.5em;
+}
+
+.Row1 {
+    display: flex;
+    justify-content: row;
+}
+
+.Album1 {
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.Img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.polaroid {
+    position: relative;
+    z-index: 0;
+    width: 33.3%;
+    height: 100%;
+    padding: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.descr {
+    position: relative;
+    z-index: 2;
+    margin-top: -1em;
+    padding: 1em;
+    text-align: center;
+    background-color: $black;
+}
+
+.Part1 {
+    display: flex;
+    justify-content: row;
+}
+
+
+/*    FIX BANNER SIZE !!!!! */
+
+.Banner2 {
+    overflow: hidden;
+    width: 10%;
+    height: 100%;
+    padding-bottom: 11em;
+    background-color: rgb(94, 214, 225);
+}
+
+.ban2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 1em;
+    background-color: white;
+}
+
+.Popular {
+    font-size: 1.5em;
+    color: $black;
+    padding-left: 1em;
+    background-color: $grey;
+    margin-top: 1em;
+    margin-right: 0.7em;
+}
+
+.Banner3 {
+    display: flex;
+    justify-content: center;
+    margin-right: 10em;
+    margin-bottom: 1em;
+    margin-left: 10em;
+    background-color: rgb(218, 217, 219);
+}
