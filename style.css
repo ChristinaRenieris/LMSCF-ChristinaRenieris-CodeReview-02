@@ -53,6 +53,19 @@ a:hover {
   color: #1a1a1a;
 }
 
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 20%;
+  padding-left: 20%;
+  color: teal;
+  margin-bottom: 20%;
+}
+
 .Main {
   margin-left: 2em;
   margin-right: 2em;
@@ -73,6 +86,10 @@ a:hover {
   -webkit-box-pack: row;
       -ms-flex-pack: row;
           justify-content: row;
+}
+
+.class {
+  display: none;
 }
 
 .Album1 {
@@ -227,5 +244,57 @@ p {
 .Credits {
   padding: 1em;
   text-align: center;
+}
+
+/*for phone*/
+@media only screen and (max-width: 600px) {
+  .Header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Banner1,
+  .Banner2,
+  .Banner3,
+  .banCF {
+    display: none;
+  }
+  .NavTop {
+    text-align: center;
+  }
+  .class {
+    margin-top: 1em;
+    margin-left: 1em;
+    padding: 0;
+    padding-bottom: 5em;
+    background-color: #009ba9;
+    display: block;
+    height: 100%;
+  }
+  .polaroid,
+  .polaroid2 {
+    width: 42%;
+  }
+  .Row1,
+  .Album2,
+  .top2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .polaroid2 {
+    padding-right: 2em;
+  }
+  .Footer {
+    text-align: center;
+  }
+  .logowrapper {
+    margin-right: 20em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

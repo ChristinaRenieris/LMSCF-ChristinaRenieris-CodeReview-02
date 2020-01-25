@@ -1,0 +1,81 @@
+.container,
+body {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    color: black;
+    margin: 0;
+}
+
+.Header {
+    background-color: #5f1a1c;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.Logo1 {
+    margin-top: 1em;
+    width: 10em;
+    height: 3em;
+}
+
+.NavTop {
+    margin-top: 0;
+    background-color: #1a1a1a;
+    list-style-type: none;
+    padding: 1em;
+}
+
+li {
+    margin-left: 0.5em;
+    display: inline;
+}
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #5f1a1c;
+    display: inline;
+}
+
+.Date {
+    padding-right: 2em;
+    text-align: right;
+    font-size: 0.9em;
+    color: #1a1a1a;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer {
+    background-color: #1a1a1a;
+}
+
+.NavFoot {
+    margin-top: 0;
+    background-color: #1a1a1a;
+    list-style-type: none;
+    padding: 1em;
+}
+
+.Logo2 {
+    padding: 1em;
+    padding-left: 80%;
+}
+
+.Credits {
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
