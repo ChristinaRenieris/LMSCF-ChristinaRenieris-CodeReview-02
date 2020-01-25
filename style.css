@@ -102,6 +102,7 @@ p {
 }
 
 .descr {
+  font-size: 1.5em;
   position: relative;
   z-index: 2;
   margin-top: -1em;
@@ -157,5 +158,32 @@ p {
   margin-bottom: 1em;
   margin-left: 10em;
   background-color: #dad9db;
+}
+
+.Part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Album2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: row;
+      -ms-flex-pack: row;
+          justify-content: row;
+  width: 90%;
+  padding-bottom: 1em;
+}
+
+.polaroid2 {
+  width: 90%;
+  height: 50%;
+  margin-bottom: 0.7em;
+}
+
+.Img2 {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
