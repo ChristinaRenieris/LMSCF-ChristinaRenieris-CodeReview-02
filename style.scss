@@ -97,7 +97,7 @@ p {
 }
 
 .descr {
-    font-size: 1.5em;
+    font-size: 1em;
     position: relative;
     z-index: 2;
     margin-top: -1em;
@@ -187,4 +187,25 @@ p {
 
 .top2 {
     padding: 1em;
+}
+
+.Footer {
+    background-color: $black;
+}
+
+.NavFoot {
+    margin-top: 0;
+    background-color: $black;
+    list-style-type: none;
+    padding: 1em;
+}
+
+.Logo2 {
+    padding: 1em;
+    padding-left: 80%;
+}
+
+.Credits {
+    padding: 1em;
+    text-align: center;
 }
